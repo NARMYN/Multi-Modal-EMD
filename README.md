@@ -16,4 +16,14 @@ This repository contains implementation of wasserstein distance on embeddings ba
 | LUSC | 490 |
 | HNSC | 520 |
 
+### Modalities
+
+The embeddings are extracted from the [custom dataset](https://huggingface.co/datasets/Lab-Rasool/TCGA) of Moffitt Cancer Centre
+| Modality    | Embedding Length   |
+|------|-----|
+| Clinical Data | 1024 |
+| Pathology Reports | 1024 |
+| Whole Slide Images | 1024 |
+| Molecular Data | 48 |
+
 
